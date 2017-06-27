@@ -3,7 +3,7 @@ import urllib2
 import json
 import url
 
-BASE_URL = url.get_summoner_name_url()
+BASE_URL = url.getSummonerNameUrl()
 
 class Summoner:
 
@@ -60,5 +60,5 @@ def getSummonerByName(region, name):
 
 
 
-sum = getSummonerByName("na1", "vinay")
-sum.print_self()
+temp = getSummonerByName("na1", "vinay")
+temp.print_self()

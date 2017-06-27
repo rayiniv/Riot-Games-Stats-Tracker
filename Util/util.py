@@ -3,7 +3,7 @@ import string
 API_KEY = "5bb381bb-530e-4e03-a14a-cb7e6ab3e69a"
 BASE_URL = "https://global.api.pvp.net/"
 SUMMONER_VERSION = "v3"
-STATS_VERSION = "2.5"
+STATS_VERSION = "v3"
 
 def log(data):
 	print data
